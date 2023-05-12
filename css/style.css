@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background-color: blueviolet;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", sans-serif;
+  }
+
+.todolist_sect {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task_input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.form_todo {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;  
+}
+
+.todo_input {
+    min-width: 300px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 0px solid transparent;
+    font-size: 24px;
+    margin-right: 10px;
+    color: blueviolet;
+}
+.image {
+  width: 48px;
+  height: 48px;
+}
+
+.todo_button_add,
+.clear {
+    color: blueviolet;
+  font-weight: 500;
+  font-size: 24px;
+  border-radius: 5px;
+  border: 0px solid transparent;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: 1px solid rgb(255, 255, 255);
+  transition: 0.3s all ease-in-out;
+}
+
+.d-none {
+    display: none;
+  }
+
+.todo_list {
+    color: white;
+    font-size: 50px;
+    margin: 0 20px;
+}
+
+.todolist {
+    width: 500px;
+    min-height: 300px;
+    border: 2px solid white;
+    border-radius: 0px 0px 40px 40px;
+    padding: 20px 20px 100px 20px;
+    margin-bottom: 30px;
+    background-image: radial-gradient(rgb(176, 115, 233), blueviolet);
+ }
+  .todolist li {
+    color: white;
+    font-size: 24px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+  
+    border-bottom: 1px solid white;
+    word-break: break-word;
+  }
+  li button {
+    float: right;
+    color: blueviolet;
+    margin-left: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0px solid transparent;
+    border: 1px solid white;
+    transition: 0.2s all ease-in-out;
+  }
+
+  li button img {
+   width: 20px;
+   height: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+  }
+  .complete {
+    text-decoration: line-through;
+    /* color: black; */
+    color: blueviolet;
+  }
+  @media (max-width: 900px) {
+    .todolist_sect {
+        padding: 50px 0px 0px 0px ;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .todo_list {
+        color: white;
+        font-size: 30px;
+        margin: 0 20px;
+    }
+    .todo_input {
+        min-width: 250px;
+        padding: 10px 15px;
+        border-radius: 10px;
+        border: 0px solid transparent;
+        font-size: 20px;
+        margin-right: 10px;
+        color: blueviolet;
+    }
+    .todo_button_add, .clear {
+        color: blueviolet;
+        font-weight: 500;
+        font-size: 20px;
+        border-radius: 5px;
+        border: 0px solid transparent;
+        padding: 10px 10px;
+        cursor: pointer;
+        border: 1px solid rgb(255, 255, 255);
+        transition: 0.3s all ease-in-out;
+    }
+    .todolist {
+        width: 100%;
+        min-height: 300px;
+        border: 2px solid white;
+        border-radius: 0px 0px 40px 40px;
+        padding: 20px 20px 100px 20px;
+        margin-bottom: 30px;
+        background-image: radial-gradient(rgb(176, 115, 233), blueviolet);
+    }
+  }
+
+  @media (max-width: 450px) {
+    
+    .todolist {
+        width: 100%;
+        min-height: 300px;
+        border: 2px solid white;
+        border-radius: 0px 0px 40px 40px;
+        padding: 20px 10px 100px 10px;
+        margin-bottom: 30px;
+    }
+    .todolist li {
+      color: white;
+      font-size: 24px;
+      margin-left: 30px;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid white;
+      word-break: break-word;
+  }
+  .form_todo {
+    display: contents;
+    
+}
+.todo_button_add, .clear {
+  padding: 10px 10px;
+  margin-top: 20px;
+}
+  }
+  @media (max-width: 400px) {
+    
+    .todolist {
+        width: 100%;
+        min-height: 300px;
+        border: 2px solid white;
+        border-radius: 0px 0px 40px 40px;
+        padding: 20px 10px 10px 10px;
+        margin-bottom: 30px;
+    }
+    .todolist li {
+      color: white;
+      font-size: 24px;
+      margin-left: 30px;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid white;
+      word-break: break-word;
+  }
+  .form_todo {
+    display: contents;
+    
+}
+.todo_button_add, .clear {
+  padding: 10px 10px;
+  margin-top: 20px;
+}
+  }
