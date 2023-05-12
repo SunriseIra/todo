@@ -33,10 +33,10 @@ function createNewItem(inputValue) {
     let compl = document.createElement('button');
     let rest = document.createElement('button');
     text.textContent = inputValue;
-    delet.innerHTML = `<img src="../image/delete.png">`;
-    edite.innerHTML = `<img src="../image/edit.png">`;
-    compl.innerHTML = `<img src="../image/done.png">`;
-    rest.innerHTML = `<img src="../image/rest.png">`;
+    delet.innerHTML = `<img src="delete.png">`;
+    edite.innerHTML = `<img src="edit.png">`;
+    compl.innerHTML = `<img src="/done.png">`;
+    rest.innerHTML = `<img src="/rest.png">`;
 
     task.appendChild(text);
     task.appendChild(delet);
