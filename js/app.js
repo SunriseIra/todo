@@ -35,8 +35,8 @@ function createNewItem(inputValue) {
     text.textContent = inputValue;
     delet.innerHTML = `<img src="delete.png">`;
     edite.innerHTML = `<img src="edit.png">`;
-    compl.innerHTML = `<img src="/done.png">`;
-    rest.innerHTML = `<img src="/rest.png">`;
+    compl.innerHTML = `<img src="done.png">`;
+    rest.innerHTML = `<img src="rest.png">`;
 
     task.appendChild(text);
     task.appendChild(delet);
