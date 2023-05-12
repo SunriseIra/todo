@@ -4,7 +4,7 @@ let input = document.querySelector('.todo_input');
 const addButton = document.querySelector(".todo_button_add");
 const clear = document.querySelector(".clear");
 
-console.log(form);
+// console.log(form);
 
 form.addEventListener("submit", function (event) {
     event.preventDefault();
@@ -36,7 +36,7 @@ function createNewItem(inputValue) {
     delet.innerHTML = `<img src="../image/delete.png">`;
     edite.innerHTML = `<img src="../image/edit.png">`;
     compl.innerHTML = `<img src="../image/done.png">`;
-    rest.innerHTML = `<img src="../image/icons8-reboot-100.png">`;
+    rest.innerHTML = `<img src="../image/rest.png">`;
 
     task.appendChild(text);
     task.appendChild(delet);
