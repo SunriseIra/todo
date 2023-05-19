@@ -9,7 +9,7 @@
   }
 
 .todolist_sect {
-    padding: 50px 100px;
+    padding: 20px 100px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -25,7 +25,6 @@
 .form_todo {
     display: flex;
     justify-content: center;
-    /* flex-direction: column; */
     align-items: center;  
 }
 
@@ -44,7 +43,7 @@
 }
 
 .todo_button_add,
-.clear {
+.clear, .save {
     color: blueviolet;
   font-weight: 500;
   font-size: 24px;
@@ -54,6 +53,15 @@
   cursor: pointer;
   border: 1px solid rgb(255, 255, 255);
   transition: 0.3s all ease-in-out;
+  margin-left: 15px;
+}
+.todo_completed {
+   width: 500px;
+  /* min-height: 300px; */
+  color: white;
+  font-weight: 500;
+  font-size: 24px;
+  padding-bottom: 5px;
 }
 
 .d-none {
@@ -62,7 +70,7 @@
 
 .todo_list {
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     margin: 0 20px;
 }
 
@@ -71,10 +79,11 @@
     min-height: 300px;
     border: 2px solid white;
     border-radius: 0px 0px 40px 40px;
-    padding: 20px 20px 100px 20px;
-    margin-bottom: 30px;
+    padding: 20px 20px 50px 20px;
+    margin-bottom: 10px;
     background-image: radial-gradient(rgb(176, 115, 233), blueviolet);
  }
+
   .todolist li {
     color: white;
     font-size: 24px;
@@ -105,10 +114,24 @@
     
   }
   .complete {
-    text-decoration: line-through;
-    /* color: black; */
-    color: blueviolet;
+    color: white;
   }
+.all_button {
+  display: flex;
+  
+}
+.сompleted_gr {
+  font-size: 20px;
+  color: white;
+}
+.list_compl {
+  text-decoration: line-through;
+  color: white;
+}
+
+
+
+
   @media (max-width: 900px) {
     .todolist_sect {
         padding: 50px 0px 0px 0px ;
